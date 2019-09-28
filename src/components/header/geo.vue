@@ -2,7 +2,7 @@
     <div class="m-geo">
       <div class="position">
         <i class="el-icon-location-information" />
-        北京
+        北京市
         <router-link class="changeCity" to="/">切换城市</router-link>
           [
           <a href="#">大厂回族自治县</a>
