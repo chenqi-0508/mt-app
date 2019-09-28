@@ -1,39 +1,39 @@
 .m-life{
-  .nav {
-    list-style: none;
-    display: flex;
-    margin-top: -35px;
-    margin-left: 50px;
-    li {
-      font-weight: 700;
-      font-size: 16px;
-      margin: 0 20px;
-      cursor: pointer;
-      position: relative;
-      &:first-child {
-        margin-left: 0;
-      }
-      a {
-        color: #222;
-        text-decoration: none;
-        &:hover {
-          color: #f04d4e;
+    .nav {
+      list-style: none;
+      display: flex;
+      margin-top: -35px;
+      margin-left: 50px;
+      li {
+        font-weight: 700;
+        font-size: 16px;
+        margin: 0 20px;
+        cursor: pointer;
+        position: relative;
+        &:first-child {
+          margin-left: 0;
         }
+        a {
+          color: #222;
+          text-decoration: none;
+          &:hover {
+            color: #f04d4e;
+          }
 
-        &.takeout:hover {
-          color: #fbc700;
-        }
+          &.takeout:hover {
+            color: #fbc700;
+          }
 
-        &.apartment:hover {
-          color: #FDC411;
-        }
+          &.apartment:hover {
+            color: #FDC411;
+          }
 
-        &.business:hover {
-          color: #31BBAC;
+          &.business:hover {
+            color: #31BBAC;
+          }
         }
       }
     }
-  }
     .m-life-pic{
         margin:10px 10px 10px 0px;
         width:150px;

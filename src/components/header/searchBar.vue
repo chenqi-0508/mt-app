@@ -1,5 +1,5 @@
 <template>
-  <div class="m-header">
+  <div class="search-panel">
     <el-row class="m-header-searchbar">
       <el-col :span="3" class="left">
         <img src="https://s0.meituan.net/bs/fe-web-meituan/fa5f0f0/img/logo.png" alt="">
@@ -62,15 +62,15 @@
       }
     },
     created () {
-      axios
-        .get('http://api.duyiedu.com/api/meituan/header/search.json',{'appkey': 'dongmeiqi_i_1545272862243'})
-        .then((resp) => {
-          console.log(resp);
-        })
+      // axios
+      //   .get('http://api.duyiedu.com/api/meituan/header/search.json',{'appkey': 'dongmeiqi_i_1545272862243'})
+      //   .then((resp) => {
+      //     console.log(resp);
+      //   })
     }
   }
 </script>
 
-<style lang="scss">
-  @import "@/assets/css/public/header/search.scss";
-</style>
+<!--<style lang="scss">-->
+<!--  @import "@/assets/css/public/header/search.scss";-->
+<!--</style>-->
