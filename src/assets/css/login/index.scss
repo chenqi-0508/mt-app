@@ -59,6 +59,7 @@
             text-decoration: none;
             &:hover {
               text-decoration: underline;
+              cursor: pointer;
             }
           }
         }
@@ -95,13 +96,13 @@
               background-position: -1250px -491px;
               background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
             }
-            .oauth__link--weibo {
+            .oauth__link__weibo {
               width: 18px;
               height: 18px;
               background-position: -1250px -599px;
               background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
             }
-           
+
         }
 
       }
@@ -184,7 +185,7 @@
               padding-left: 10px;
             }
           }
-          
+
         }
       }
       >p {

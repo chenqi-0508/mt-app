@@ -50,8 +50,8 @@
     .pw-strength{
       position: relative;
       width: 330px;
-      top: 10px;
-      left: 0px;
+      top: -10px;
+      left: 100px;
       background: #eee;
       .bar {
         background: #d3ebee;
@@ -101,6 +101,11 @@
     .f1 {
       display: block;
     }
+    .btn {
+      color: aliceblue;
+      background-color: #2db3a6;
+      background-size: 100%;
+    }
   }
   >footer {
     color: #999;
@@ -109,6 +114,7 @@
     font-size: 13px;
   }
   a {
+    color: #999;
     text-decoration: none;
   }
 }

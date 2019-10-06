@@ -66,6 +66,9 @@ a {
       &:target {
         color: aquamarine;
       }
+      &.levelS {
+        color: #FF6600;
+      }
     }
   }
 }
